@@ -11,38 +11,15 @@
   display: flex;
 }
 
+.footer__logo{
+  width: 10rem;
+}
+
 .footer__company {
   margin: auto;
   margin-left: 20px;
 }
 
-.footer__address {
-  margin-left: 20px;
-}
-
-.footer__insta {
-  height: 50px;
-}
-
-.footer__face {
-  height: 50px;
-}
-
-.footer__SNS {
-  display: flex;
-  margin: 5px 30px;
-}
-
-.footer__face {
-  margin: 0 20px;
-}
-
-.google-map {
-  position: relative;
-  align-items: end;
-  top: 5px;
-  right: 3px;
-}
 
 .footer__company {
   display: block;
@@ -66,16 +43,12 @@
   left: 260px;
 
   background:
-    radial-gradient(
-      circle at 20% 30%,
+    radial-gradient(circle at 20% 30%,
       rgba(255, 180, 210, 0.9),
-      transparent 40%
-    ),
-    radial-gradient(
-      circle at 80% 70%,
+      transparent 40%),
+    radial-gradient(circle at 80% 70%,
       rgba(120, 255, 170, 0.9),
-      transparent 60%
-    ),
+      transparent 60%),
     linear-gradient(135deg, #4f0263, #661b6d, #00755d, #147834);
 
   -webkit-background-clip: text;
